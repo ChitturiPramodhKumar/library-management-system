@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>return book</title>
+    </head>
+    <body>
+        <h1>Library Management System</h1>
+        <a href = '/home'>go home</a>
+        <h2>Return book</h2>
+        <h3>Enter detials</h3>
+        <form action = '/returnbookdata' method = 'GET'>
+            <label for = 'p_name'>Person name:</lable><br>
+            <input type = 'text' name = 'p_name' id = 'p_name'></input><br><br>
+            <lable for = 'contact'>Contact number:</label><br>
+            <input type = 'tel' pattern = [0-9]{10} name = 'contact' id = 'contact'><br><br>
+            <input type = 'submit' value = 'submit'></input>
+        </form>
+    </body>
+    </html>

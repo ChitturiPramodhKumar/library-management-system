@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    <head>
+        <title>borrow book record</title>
+    </head>
+    <body>
+        <h1>Library Management System</h1>
+        <a href = '/home'>go home</a>
+        <h2>Borrow books info</h2>
+        <h3>Enter details</h3>
+        <form action = '/renderborrowbooks' method = 'GET'>
+            <label for = 'person'>Person name:</label><br>
+            <input type = 'text' name = 'person' id = 'person'></input><br><br>
+            <label for = 'contact'>Contact number:</label><br>
+            <input type = 'tel' pattern = '[0-9]{10}' name = 'contact' id = 'contact'></input><br><br>
+            <input type = 'submit' value = 'submit'>
+        </form>
+    </body>
+    </html>
